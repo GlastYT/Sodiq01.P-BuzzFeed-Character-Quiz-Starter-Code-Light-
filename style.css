@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Slabo 27px', serif;
+  background-color : #FFE5B4;
 }
 
 .header {
@@ -10,6 +11,14 @@ html, body {
   justify-content: space-around;
   color: #0f65ef;
   font-size:27px;
+}
+
+h1{
+  color : #437d9c;
+} 
+
+h3{
+  color : #4d968f;
 }
 
 .logo {
@@ -46,4 +55,13 @@ button {
   border:3px groove black;
   font-family: monospace;
   padding: 20px;
+}
+
+.result2{
+  font-family: 'Slabo 27px', serif;
+  color : #4d968f;
+  font-size : 50px;
+  display : flex;
+  justify-content : center;
+  align-items : center;
 }
